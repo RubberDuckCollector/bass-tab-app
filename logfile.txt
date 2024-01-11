@@ -1,0 +1,138 @@
+2023-12-04 12:40:50.000549: App started
+2023-12-04 12:40:50.613070: Caption is now 'Main Menu'
+2023-12-04 12:40:50.613169: Called function make_main_menu_buttons()
+2023-12-04 12:40:50.613358: Called function make_note_buttons()
+2023-12-04 12:40:50.613384: Called function make_main_menu_buttons()
+2023-12-04 12:48:55.580244: App started
+2023-12-04 12:48:56.230060: Caption is now 'Main Menu'
+2023-12-04 12:48:56.230147: Called function make_main_menu_buttons()
+2023-12-04 12:48:56.230358: Called function make_note_buttons()
+2023-12-04 12:48:56.230387: Called function make_main_menu_buttons()
+2023-12-04 12:48:58.276698: Clicked Make tab
+2023-12-04 12:48:58.277150: Caption is now 'Tab maker'
+2023-12-04 12:48:58.277220: Called function make_note_buttons()
+2023-12-04 12:49:02.277432: Clicked main menu button
+2023-12-04 12:49:02.277842: Caption is now 'Main menu'
+2023-12-04 12:49:02.277859: Called function make_main_menu_buttons()
+2023-12-04 12:49:04.529428: Clicked Visualisation
+2023-12-04 12:49:04.529884: Caption is now 'Visualisation'
+2023-12-04 12:49:06.679225: Clicked Home
+2023-12-04 12:49:06.679252: Clicked main menu button
+2023-12-04 12:49:06.679628: Caption is now 'Main menu'
+2023-12-04 12:49:06.679645: Called function make_main_menu_buttons()
+2023-12-04 12:49:08.213291: App exited
+2023-12-04 12:49:12.657588: App started
+2023-12-04 12:49:13.255686: Caption is now 'Main Menu'
+2023-12-04 12:49:13.255789: Called function make_main_menu_buttons()
+2023-12-04 12:49:13.256004: Called function make_note_buttons()
+2023-12-04 12:49:13.256033: Called function make_main_menu_buttons()
+2023-12-04 12:49:14.693430: Clicked Make tab
+2023-12-04 12:49:14.693891: Caption is now 'Tab maker'
+2023-12-04 12:49:14.693958: Called function make_note_buttons()
+2023-12-04 12:49:16.918707: App exited
+2023-12-04 12:52:19.255230: App started
+2023-12-04 12:52:19.881515: Caption is now 'Main Menu'
+2023-12-04 12:52:19.881612: Called function make_main_menu_buttons()
+2023-12-04 12:52:19.881815: Called function make_note_buttons()
+2023-12-04 12:52:19.881842: Called function make_main_menu_buttons()
+2023-12-04 12:52:22.685692: Clicked Make tab
+2023-12-04 12:52:22.686133: Caption is now 'Tab maker'
+2023-12-04 12:52:22.686194: Called function make_note_buttons()
+2023-12-04 12:52:24.620204: Clicked main menu button
+2023-12-04 12:52:24.620615: Caption is now 'Main menu'
+2023-12-04 12:52:24.620632: Called function make_main_menu_buttons()
+2023-12-04 12:52:26.354173: Clicked Visualisation
+2023-12-04 12:52:26.354626: Caption is now 'Visualisation'
+2023-12-04 12:52:27.104860: Clicked Home
+2023-12-04 12:52:27.104881: Clicked main menu button
+2023-12-04 12:52:27.105328: Caption is now 'Main menu'
+2023-12-04 12:52:27.105352: Called function make_main_menu_buttons()
+2023-12-04 12:52:28.304896: Clicked View songs
+2023-12-04 12:52:28.305368: Caption is now 'View songs'
+2023-12-04 12:52:29.287807: App exited
+2023-12-04 14:20:56.745370: App started
+2023-12-04 14:20:57.470999: Caption is now 'Main Menu'
+2023-12-04 14:20:57.471063: Called function make_main_menu_buttons()
+2023-12-04 14:20:57.471172: Called function make_note_buttons()
+2023-12-04 14:20:57.471187: Called function make_main_menu_buttons()
+2023-12-04 14:20:58.334590: Clicked Make tab
+2023-12-04 14:20:58.335185: Caption is now 'Tab maker'
+2023-12-04 14:20:58.335279: Called function make_note_buttons()
+2023-12-04 14:20:59.791919: Clicked main menu button
+2023-12-04 14:20:59.792361: Caption is now 'Main menu'
+2023-12-04 14:20:59.792382: Called function make_main_menu_buttons()
+2023-12-04 14:21:00.369458: Clicked View songs
+2023-12-04 14:21:00.370099: Caption is now 'View songs'
+2023-12-04 14:21:01.099497: Clicked Home
+2023-12-04 14:21:01.099523: Clicked main menu button
+2023-12-04 14:21:01.100144: Caption is now 'Main menu'
+2023-12-04 14:21:01.100172: Called function make_main_menu_buttons()
+2023-12-04 14:21:01.782279: Clicked Visualisation
+2023-12-04 14:21:01.782863: Caption is now 'Visualisation'
+2023-12-04 14:21:02.349481: Clicked Home
+2023-12-04 14:21:02.349502: Clicked main menu button
+2023-12-04 14:21:02.350079: Caption is now 'Main menu'
+2023-12-04 14:21:02.350111: Called function make_main_menu_buttons()
+2023-12-04 14:21:03.487958: App exited
+2023-12-27 11:54:06.927042: App started
+2023-12-27 11:54:07.624298: Caption is now 'Main Menu'
+2023-12-27 11:54:07.624391: Called function make_main_menu_buttons()
+2023-12-27 11:54:07.624591: Called function make_note_buttons()
+2023-12-27 11:54:07.624617: Called function make_main_menu_buttons()
+2023-12-27 11:54:08.601763: Clicked Make tab
+2023-12-27 11:54:08.602359: Caption is now 'Tab maker'
+2023-12-27 11:54:08.602449: Called function make_note_buttons()
+2023-12-27 11:54:09.986993: Clicked main menu button
+2023-12-27 11:54:09.987481: Caption is now 'Main menu'
+2023-12-27 11:54:09.987505: Called function make_main_menu_buttons()
+2023-12-27 11:54:12.303096: Clicked View songs
+2023-12-27 11:54:12.303677: Caption is now 'View songs'
+2023-12-27 11:54:14.453479: App exited
+2024-01-02 14:27:24.175247: App started
+2024-01-02 14:27:25.153836: Caption is now 'Main Menu'
+2024-01-02 14:27:25.153926: Called function make_main_menu_buttons()
+2024-01-02 14:27:25.154101: Called function make_note_buttons()
+2024-01-02 14:27:25.154126: Called function make_main_menu_buttons()
+2024-01-02 14:27:27.227595: App exited
+2024-01-02 14:30:50.493056: App started
+2024-01-02 14:30:51.071947: Caption is now 'Main Menu'
+2024-01-02 14:30:51.072055: Called function make_main_menu_buttons()
+2024-01-02 14:30:51.072297: Called function make_note_buttons()
+2024-01-02 14:30:51.072332: Called function make_main_menu_buttons()
+2024-01-02 14:30:52.956913: Clicked Make tab
+2024-01-02 14:30:52.957509: Caption is now 'Tab maker'
+2024-01-02 14:30:52.957594: Called function make_note_buttons()
+2024-01-02 14:30:54.901069: Clicked main menu button
+2024-01-02 14:30:54.901559: Caption is now 'Main menu'
+2024-01-02 14:30:54.901577: Called function make_main_menu_buttons()
+2024-01-02 14:30:56.243616: App exited
+2024-01-11 11:18:07.704197: App started
+2024-01-11 11:18:08.468637: Caption is now 'Main Menu'
+2024-01-11 11:18:08.468764: Called function make_main_menu_buttons()
+2024-01-11 11:18:08.469040: Called function make_note_buttons()
+2024-01-11 11:18:08.469069: Called function make_main_menu_buttons()
+2024-01-11 11:18:09.369611: Clicked Make tab
+2024-01-11 11:18:09.370203: Caption is now 'Tab maker'
+2024-01-11 11:18:09.370296: Called function make_note_buttons()
+2024-01-11 11:18:10.444325: Clicked main menu button
+2024-01-11 11:18:10.444820: Caption is now 'Main menu'
+2024-01-11 11:18:10.444839: Called function make_main_menu_buttons()
+2024-01-11 11:18:10.986575: Clicked Make tab
+2024-01-11 11:18:10.987098: Caption is now 'Tab maker'
+2024-01-11 11:18:10.987177: Called function make_note_buttons()
+2024-01-11 11:18:11.972675: Clicked main menu button
+2024-01-11 11:18:11.973210: Caption is now 'Main menu'
+2024-01-11 11:18:11.973230: Called function make_main_menu_buttons()
+2024-01-11 11:18:12.533090: Clicked View songs
+2024-01-11 11:18:12.533674: Caption is now 'View songs'
+2024-01-11 11:18:13.120665: Clicked Home
+2024-01-11 11:18:13.120690: Clicked main menu button
+2024-01-11 11:18:13.121382: Caption is now 'Main menu'
+2024-01-11 11:18:13.121412: Called function make_main_menu_buttons()
+2024-01-11 11:18:13.716398: Clicked Visualisation
+2024-01-11 11:18:13.716970: Caption is now 'Visualisation'
+2024-01-11 11:18:15.404132: Clicked Home
+2024-01-11 11:18:15.404161: Clicked main menu button
+2024-01-11 11:18:15.405173: Caption is now 'Main menu'
+2024-01-11 11:18:15.405228: Called function make_main_menu_buttons()
+2024-01-11 11:18:17.308378: App exited
