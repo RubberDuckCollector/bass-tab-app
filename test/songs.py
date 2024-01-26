@@ -2,11 +2,11 @@ import os
 
 
 def main():
-    if os.path.exists("/Users/luna/real-version/songs"):
+    if os.path.exists("/Users/luna/real-version/test/songs"):
         print("kjs;jdafkbnskahj;felbfnsmd")
         pass
     else:
-        os.mkdir("/Users/luna/real-version/songs/")
+        os.mkdir("/Users/luna/real-version/test/songs/")
 
     songs = []
     parent_dir = "/Users/luna/real-version/test/songs/"
@@ -20,6 +20,9 @@ def main():
     print(songs)
 
     os.mkdir(parent_dir + song_name)
+    os.chdir("/Users/luna/real-version/test/songs/helloworld/")
+    with open(song_name, "w") as f:
+        f.write("hsdfaiuhgvhjbkalfhidsubkjsaewfigdsbjk\n")
 
 
 if __name__ == "__main__":
