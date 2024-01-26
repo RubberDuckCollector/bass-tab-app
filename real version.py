@@ -1579,7 +1579,8 @@ def main():
                             current_question = 0
 
                             # iterate through questions while taking the user input
-                            for question in questions:
+                            for i, question in enumerate(questions):
+                                f.write(f"Make tab current question: {questions[i]}\n")
                                 input_box = pygame.Rect(100, 100, 140, 32)
                                 color_inactive = pygame.Color("lightskyblue3")
                                 color_active = pygame.Color("dodgerblue2")
@@ -1589,6 +1590,7 @@ def main():
 
                                 while True:
                                     try:
+                                        # log the question the user is currently on
                                         for event in pygame.event.get():
                                             if event.type == pygame.QUIT:
                                                 pygame.quit()
@@ -1609,6 +1611,10 @@ def main():
                                             if event.type == pygame.KEYDOWN:
                                                 # and the text box is active...
                                                 if active:
+                                                    # log the text box contents
+                                                    f.write(
+                                                        f"Make tab text box contents: {text}\n"
+                                                    )
                                                     # if the user presses return
                                                     if event.key == pygame.K_RETURN:
                                                         if (
@@ -1631,6 +1637,7 @@ def main():
 
                                                             # increments the iterating variable to move on to the next question
                                                             current_question += 1
+
                                                             # clear the text box ready for the user's next answer
                                                             text = ""
                                                             break
@@ -1770,7 +1777,6 @@ def main():
             # i's purpose is to facilitate this iteration and acess the button in the list and render it
             # WHILE the game loop is running, the buttons in the list are drawn on the screen
             # which is why they persist on the screen
-
             all_buttons = buttons + note_buttons
             for i in all_buttons:
                 i.draw(screen)
@@ -1778,7 +1784,6 @@ def main():
             pygame.display.flip()
             clock.tick(60)
 
-        # f.write(f"{datetime.now()}: App exited - other means\n")
         f.write(f"{datetime.now()}: App exited\n")
         pygame.quit()
         sys.exit()
