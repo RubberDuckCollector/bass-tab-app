@@ -24,8 +24,9 @@ def main():
 
             def draw(self, screen):
                 pygame.draw.rect(screen, self.color, self.rect)
+                global font
                 font = pygame.font.Font(
-                    "/System/Library/Fonts/Supplemental/Arial.ttf", 32
+                    "/System/Library/Fonts/Supplemental/Arial.ttf", 28
                 )
                 text = font.render(self.text, True, self.text_color)
                 text_rect = text.get_rect(center=self.rect.center)
@@ -50,6 +51,7 @@ def main():
         screen_width = 1280
         screen_height = 720
 
+        clock = pygame.time.Clock()
         screen = pygame.display.set_mode((screen_width, screen_height))
         pygame.display.set_caption("Main menu")
         f.write(f"{datetime.now()}: Caption is now 'Main Menu'\n")
@@ -107,6 +109,22 @@ def main():
                 BLACK,
             )
             list_of_buttons.append(visualisation_button)
+
+            global show_song_button
+            show_song_button_width = 200
+            show_song_button_height = 100
+            show_song_button_x_pos = (screen_width - show_song_button_width) // 2
+            show_song_button_y_pos = 315
+            show_song_button = Button(
+                show_song_button_x_pos,
+                show_song_button_y_pos,
+                show_song_button_width,
+                show_song_button_height,
+                GREEN,
+                "Show song!",
+                BLACK,
+            )
+            list_of_buttons.append(show_song_button)
 
             global main_menu_button
             main_menu_button = Button(0, 660, 100, 60, BLUE, "Home", WHITE)
@@ -1540,6 +1558,9 @@ def main():
                             if button.is_clicked(pos):
                                 f.write(f"{datetime.now()}: Clicked {button.text}\n")
                         if make_tab_button.is_clicked(pos):
+                            # need this to be able to back out if desired
+                            buttons = [main_menu_button]
+
                             # if the user is on screen 1 and make_tab_button is pressed
                             # change to tab maker screen
                             current_screen = "tab maker"
@@ -1549,21 +1570,138 @@ def main():
                             pygame.display.set_caption("Tab maker")
                             f.write(f"{datetime.now()}: Caption is now 'Tab maker'\n")
                             buttons = [main_menu_button]
-                            note_buttons = make_note_buttons()
+                            questions = [
+                                "Enter song name:",
+                                "Enter song artist:",
+                                "Enter rating:",
+                            ]
+                            answers = []
+                            current_question = 0
 
-                        if view_songs_button.is_clicked(pos):
-                            current_screen = "view songs"
-                            pygame.display.set_caption("View songs")
-                            f.write(f"{datetime.now()}: Caption is now 'View songs'\n")
-                            buttons = [main_menu_button]
-                            note_buttons = []
-                        if visualisation_button.is_clicked(pos):
-                            current_screen = "visualisation"
-                            pygame.display.set_caption("Visualisation")
-                            f.write(
-                                f"{datetime.now()}: Caption is now 'Visualisation'\n"
-                            )
-                            buttons = [main_menu_button]
+                            # iterate through questions while taking the user input
+                            for question in questions:
+                                input_box = pygame.Rect(100, 100, 140, 32)
+                                color_inactive = pygame.Color("lightskyblue3")
+                                color_active = pygame.Color("dodgerblue2")
+                                color = color_inactive
+                                active = False
+                                text = ""
+
+                                while True:
+                                    try:
+                                        for event in pygame.event.get():
+                                            if event.type == pygame.QUIT:
+                                                pygame.quit()
+                                                return
+                                            # get mouse position and make text box active
+                                            if event.type == pygame.MOUSEBUTTONDOWN:
+                                                if input_box.collidepoint(event.pos):
+                                                    active = not active
+                                                else:
+                                                    active = False
+                                                # python's syntax for ternary operator
+                                                color = (
+                                                    color_active
+                                                    if active
+                                                    else color_inactive
+                                                )
+                                            # if the user presses a key...
+                                            if event.type == pygame.KEYDOWN:
+                                                # and the text box is active...
+                                                if active:
+                                                    # if the user presses return
+                                                    if event.key == pygame.K_RETURN:
+                                                        if (
+                                                            text.strip()
+                                                        ):  # check if the text is not empty or only spaces
+                                                            answers.append(text.strip())
+                                                            # debugging
+                                                            print(
+                                                                f"Answer: {text.strip()}\n"
+                                                            )
+                                                            # debugging
+                                                            print(answers)
+
+                                                            # stops when the user has entered three things
+                                                            if len(answers) == 3:
+                                                                print(
+                                                                    "user has added 3"
+                                                                )
+                                                                pygame.quit()
+
+                                                            # increments the iterating variable to move on to the next question
+                                                            current_question += 1
+                                                            # clear the text box ready for the user's next answer
+                                                            text = ""
+                                                            break
+                                                    elif (
+                                                        event.key == pygame.K_BACKSPACE
+                                                    ):
+                                                        text = text[:-1]
+                                                    else:
+                                                        text += event.unicode
+
+                                        # if this isn't here, the text above the text box won't update
+                                        # and the text in the text box won't appear to clear upon pressing Enter
+                                        # even though it actually does get rendered correctly
+                                        screen.fill(WHITE)
+
+                                        # render and display the question
+                                        question_surface = font.render(
+                                            questions[current_question],
+                                            True,
+                                            (0, 0, 0),
+                                        )
+                                        screen.blit(
+                                            question_surface,
+                                            (input_box.x, input_box.y - 30),
+                                        )
+
+                                        txt_surface = font.render(text, True, color)
+                                        width = max(200, txt_surface.get_width() + 10)
+                                        input_box.w = width
+                                        screen.blit(
+                                            txt_surface,
+                                            (input_box.x + 5, input_box.y + 5),
+                                        )
+                                        pygame.draw.rect(screen, color, input_box, 2)
+
+                                        # required for the code to work
+                                        pygame.display.flip()
+                                        clock.tick(60)
+                                    # don't want to deal with an actual error message
+                                    except IndexError:
+                                        print("index error")
+                                        sys.exit()
+                                    except pygame.error:
+                                        print("pygame.error")
+                                        sys.exit()
+                            # note_buttons = make_note_buttons()
+
+                            if view_songs_button.is_clicked(pos):
+                                current_screen = "view songs"
+                                pygame.display.set_caption("View songs")
+                                f.write(
+                                    f"{datetime.now()}: Caption is now 'View songs'\n"
+                                )
+                                buttons = [main_menu_button]
+                                note_buttons = []
+
+                            if visualisation_button.is_clicked(pos):
+                                current_screen = "visualisation"
+                                pygame.display.set_caption("Visualisation")
+                                f.write(
+                                    f"{datetime.now()}: Caption is now 'Visualisation'\n"
+                                )
+                                buttons = [main_menu_button]
+
+                            if show_song_button.is_clicked(pos):
+                                current_screen = "show song"
+                                pygame.display.set_caption("Show song")
+                                f.write(
+                                    f"{datetime.now()}: Caption is now 'Show song'\n"
+                                )
+                                buttons = [main_menu_button]
 
                     # TAB MAKER
                     elif current_screen == "tab maker":
@@ -1599,10 +1737,23 @@ def main():
                                     f"{datetime.now()}: Caption is now 'Main menu'\n"
                                 )
                                 buttons = make_main_menu_buttons()
-                                note_buttons = []
 
                     # VISUALISATION
                     elif current_screen == "visualisation":
+                        for i in buttons:
+                            if i.is_clicked(pos):
+                                f.write(f"{datetime.now()}: Clicked {i.text}\n")
+                            if main_menu_button.is_clicked(pos):
+                                f.write(f"{datetime.now()}: Clicked main menu button\n")
+                                current_screen = "main menu"
+                                pygame.display.set_caption("Main menu")
+                                f.write(
+                                    f"{datetime.now()}: Caption is now 'Main menu'\n"
+                                )
+                                buttons = make_main_menu_buttons()
+
+                    # SHOW SONG
+                    elif current_screen == "show song":
                         for i in buttons:
                             if i.is_clicked(pos):
                                 f.write(f"{datetime.now()}: Clicked {i.text}\n")
@@ -1625,6 +1776,7 @@ def main():
                 i.draw(screen)
 
             pygame.display.flip()
+            clock.tick(60)
 
         # f.write(f"{datetime.now()}: App exited - other means\n")
         f.write(f"{datetime.now()}: App exited\n")
