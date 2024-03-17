@@ -117,8 +117,7 @@ def main():
             global show_song_button
             show_song_button_width = 200
             show_song_button_height = 100
-            show_song_button_x_pos = (
-                screen_width - show_song_button_width) // 2
+            show_song_button_x_pos = (screen_width - show_song_button_width) // 2
             show_song_button_y_pos = 315
             show_song_button = Button(
                 show_song_button_x_pos,
@@ -155,17 +154,7 @@ def main():
             list_of_note_buttons = []
 
             # G STRING
-            g_0_button = NoteButton(
-                note_button_coords[0],
-                note_button_coords[0],
-                note_button_width,
-                note_button_height,
-                RED,
-                "0",
-                BLACK,
-                "g",
-                "g-0",
-            )
+            g_0_button = NoteButton(note_button_coords[0], note_button_coords[0], note_button_width, note_button_height, RED, "0", BLACK, "g", "g-0",)
             list_of_note_buttons.append(g_0_button)
 
             g_1_button = NoteButton(
@@ -1562,8 +1551,7 @@ def main():
                     if current_screen == "main menu":
                         for button in buttons:
                             if button.is_clicked(pos):
-                                f.write(f"{datetime.now()}: Clicked {
-                                        button.text}\n")
+                                f.write(f"{datetime.now()}: Clicked {button.text}\n")
                         if make_tab_button.is_clicked(pos):
                             # need this to be able to back out if desired
                             buttons = [main_menu_button]
@@ -1575,12 +1563,8 @@ def main():
                             # change window title to tab maker
                             # makes app more immersive due to the added attention to detail
                             pygame.display.set_caption("Tab maker")
-                            f.write(
-                                f"{datetime.now()}: Caption is now 'Tab maker'\n")
-                            f.write(
-                                f"{datetime.now(
-                                )}: User will be prompted to enter song details\n"
-                            )
+                            f.write(f"{datetime.now()}: Caption is now 'Tab maker'\n")
+                            f.write(f"{datetime.now()}: User will be prompted to enter song details\n")
                             buttons = [main_menu_button]
                             questions = [
                                 "Enter song name:",
@@ -1614,35 +1598,24 @@ def main():
                                                 else:
                                                     active = False
                                                 # python's syntax for ternary operator
-                                                color = (
-                                                    color_active
-                                                    if active
-                                                    else color_inactive
-                                                )
+                                                color = color_active if active else color_inactive
                                             # if the user presses a key...
                                             if event.type == pygame.KEYDOWN:
                                                 # and the text box is active...
                                                 if active:
                                                     # if the user presses return
                                                     if event.key == pygame.K_RETURN:
-                                                        if (
-                                                            text.strip()
-                                                        ):  # check if the text is not empty or only spaces
+                                                        if (text.strip()):  # check if the text is not empty or only spaces
                                                             answers.append(
                                                                 text.strip())
                                                             # debugging
-                                                            print(
-                                                                f"Answer: {
-                                                                    text.strip()}\n"
-                                                            )
+                                                            print(f"Answer: { text.strip()}\n")
                                                             # debugging
                                                             print(answers)
 
                                                             # stops when the user has entered three things
                                                             if len(answers) == 3:
-                                                                print(
-                                                                    "user has added 3"
-                                                                )
+                                                                print("user has added 3")
                                                                 pygame.quit()
 
                                                             # increments the iterating variable to move on to the next question
@@ -1700,24 +1673,20 @@ def main():
                         if view_songs_button.is_clicked(pos):
                             current_screen = "view songs"
                             pygame.display.set_caption("View songs")
-                            f.write(
-                                f"{datetime.now()}: Caption is now 'View songs'\n")
+                            f.write(f"{datetime.now()}: Caption is now 'View songs'\n")
                             buttons = [main_menu_button]
                             note_buttons = []
 
                         if visualisation_button.is_clicked(pos):
                             current_screen = "visualisation"
                             pygame.display.set_caption("Visualisation")
-                            f.write(
-                                f"{datetime.now()}: Caption is now 'Visualisation'\n"
-                            )
+                            f.write(f"{datetime.now()}: Caption is now 'Visualisation'\n")
                             buttons = [main_menu_button]
 
                         if show_song_button.is_clicked(pos):
                             current_screen = "show song"
                             pygame.display.set_caption("Show song")
-                            f.write(
-                                f"{datetime.now()}: Caption is now 'Show song'\n")
+                            f.write(f"{datetime.now()}: Caption is now 'Show song'\n")
                             buttons = [main_menu_button]
 
                     # TAB MAKER
@@ -1726,21 +1695,16 @@ def main():
                         # then moves on to `if main_menu_button.is_clicked(pos):`
                         for i in note_buttons:
                             if i.is_clicked(pos):
-                                f.write(
-                                    f"{datetime.now()}: Clicked {i.text}, string: {
-                                        i.description}\n"
-                                )
+                                f.write(f"{datetime.now()}: Clicked {i.text}, string: {i.description}\n")
                         if main_menu_button.is_clicked(pos):
-                            f.write(
-                                f"{datetime.now()}: Clicked main menu button\n")
+                            f.write(f"{datetime.now()}: Clicked main menu button\n")
                             # if user clicks the switch button when it's already screen 2
                             # change to main menu
                             current_screen = "main menu"
 
                             # change window title to main menu
                             pygame.display.set_caption("Main menu")
-                            f.write(
-                                f"{datetime.now()}: Caption is now 'Main menu'\n")
+                            f.write(f"{datetime.now()}: Caption is now 'Main menu'\n")
                             buttons = make_main_menu_buttons()
                             note_buttons = []
 
@@ -1748,16 +1712,12 @@ def main():
                     elif current_screen == "view songs":
                         for i in buttons:
                             if i.is_clicked(pos):
-                                f.write(
-                                    f"{datetime.now()}: Clicked {i.text}\n")
+                                f.write(f"{datetime.now()}: Clicked {i.text}\n")
                             if main_menu_button.is_clicked(pos):
-                                f.write(
-                                    f"{datetime.now()}: Clicked main menu button\n")
+                                f.write(f"{datetime.now()}: Clicked main menu button\n")
                                 current_screen = "main menu"
                                 pygame.display.set_caption("Main menu")
-                                f.write(
-                                    f"{datetime.now()}: Caption is now 'Main menu'\n"
-                                )
+                                f.write(f"{datetime.now()}: Caption is now 'Main menu'\n")
                                 buttons = make_main_menu_buttons()
 
                     # VISUALISATION
@@ -1780,15 +1740,12 @@ def main():
                     elif current_screen == "show song":
                         for i in buttons:
                             if i.is_clicked(pos):
-                                f.write(
-                                    f"{datetime.now()}: Clicked {i.text}\n")
+                                f.write(f"{datetime.now()}: Clicked {i.text}\n")
                             if main_menu_button.is_clicked(pos):
-                                f.write(
-                                    f"{datetime.now()}: Clicked main menu button\n")
+                                f.write(f"{datetime.now()}: Clicked main menu button\n")
                                 current_screen = "main menu"
                                 pygame.display.set_caption("Main menu")
-                                f.write(
-                                    f"{datetime.now()}: Caption is now 'Main menu'\n")
+                                f.write(f"{datetime.now()}: Caption is now 'Main menu'\n")
                                 buttons = make_main_menu_buttons()
 
             # draw buttons at the end of each frame
@@ -1810,4 +1767,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# ylmvivorklrhoecjpnjxchbhlpfyknwzlqadnomvfnjbeicrymvmccbyfjyqiobnwzlqarkhahejdtiljuhbhlpfyknwzlqarkhahejrbrtidwjpnjxchqzvucwaqzvucwafjyqiobiubdyhhnwzlqaluwdkolnknwvrhnwzlqasdpsbbqpkcddgfhiubdyhhdtiljuhieppahnwzlqaprnlllsofjyqiobajgmyihajgmyihjbeicrynwzlqarkhahejjbeicryrbrtidwajgmyihmvmccbypeqiga
+# snpkggqckczaflcezdjtehnyknbkhpkdmodxfldftocvwgovxhscwuqhabujsdpjslxfoveqdavqxkhgnzrajmzsmjvqcrabipcnfujxjjcadavqxkhgnzralxhzoltepxozcldqhytclhxhxhscwuqhabujhqmsuduidkkmlxhzoltepxozfldftocvwgovxhscwuqhabujrlfdvgqzynjlssbzvudjycgpahlplqkatuntssbzvudjycgpjfvdafwpgldfjmzsmjvqcrabsdpjslxfoveqssbzvudjycgprlfdvgqzynjlxhscwuqhabujlxhzoltepxozxfzfsnvrzshorlfdvgqzynjlxhscwuqhabujhqmsuduidkkmdavqxkhgnzraknbkhpkdmodxmezlmpqkkbwumezlmpqkkbwussbzvudjycgpxfzfsnvrzshoxhscwuqhabujcvwhvwmyrgkklhnhcbrwnpyrxhscwuqhabujuummvyrlidhaknbkhpkdmodxjfvdafwpgldfssbzvudjycgplhnhcbrwnpyrktgaksqebkgzxhscwuqhabujphypaxcvwizplxhzoltepxozlhnhcbrwnpyrxhscwuqhabujflcezdjtehnyssbzvudjycgpjfvdafwpgldfjfvdafwpgldfjmzsmjvqcrabrqoirjhmjmbdxhscwuqhabujehpmcwojanxsjlkkwmsfiwsu
