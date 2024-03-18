@@ -1,0 +1,300 @@
+# G STRING
+g_0_button = NoteButton(note_button_coords[0], note_button_coords[0], note_button_width, note_button_height, RED, "0", BLACK, "g", "g-0")
+list_of_note_buttons.append(g_0_button)
+
+g_1_button = NoteButton(note_button_coords[1], note_button_coords[0], note_button_width, note_button_height, RED, "1", BLACK, "g", "g-1")
+list_of_note_buttons.append(g_1_button)
+
+g_2_button = NoteButton(note_button_coords[2], note_button_coords[0], note_button_width, note_button_height, RED, "2", BLACK, "g", "g-2")
+list_of_note_buttons.append(g_2_button)
+
+g_3_button = NoteButton(note_button_coords[3], note_button_coords[0], note_button_width, note_button_height, RED, "3", BLACK, "g", "g-3")
+list_of_note_buttons.append(g_3_button)
+
+g_4_button = NoteButton(note_button_coords[4], note_button_coords[0], note_button_width, note_button_height, RED, "4", BLACK, "g", "g-4")
+list_of_note_buttons.append(g_4_button)
+
+g_5_button = NoteButton(note_button_coords[5], note_button_coords[0], note_button_width, note_button_height, RED, "5", BLACK, "g", "g-5")
+list_of_note_buttons.append(g_5_button)
+
+g_6_button = NoteButton(note_button_coords[6], note_button_coords[0], note_button_width, note_button_height, RED, "6", BLACK, "g", "g-6")
+list_of_note_buttons.append(g_6_button)
+
+g_7_button = NoteButton(note_button_coords[7], note_button_coords[0], note_button_width, note_button_height, RED, "7", BLACK, "g", "g-7")
+list_of_note_buttons.append(g_7_button)
+
+g_8_button = NoteButton(note_button_coords[8], note_button_coords[0], note_button_width, note_button_height, RED, "8", BLACK, "g", "g-8")
+list_of_note_buttons.append(g_8_button)
+
+g_9_button = NoteButton(note_button_coords[9], note_button_coords[0], note_button_width, note_button_height, RED, "9", BLACK, "g", "g-9")
+list_of_note_buttons.append(g_9_button)
+
+g_10_button = NoteButton(note_button_coords[10], note_button_coords[0], note_button_width, note_button_height, RED, "10", BLACK, "g", "g-10")
+list_of_note_buttons.append(g_10_button)
+
+g_11_button = NoteButton(note_button_coords[11], note_button_coords[0], note_button_width, note_button_height, RED, "11", BLACK, "g", "g-11")
+list_of_note_buttons.append(g_11_button)
+
+g_12_button = NoteButton(note_button_coords[12], note_button_coords[0], note_button_width, note_button_height, RED, "12", BLACK, "g", "g-12")
+list_of_note_buttons.append(g_12_button)
+
+g_13_button = NoteButton(note_button_coords[13], note_button_coords[0], note_button_width, note_button_height, RED, "13", BLACK, "g", "g-13")
+list_of_note_buttons.append(g_13_button)
+
+g_14_button = NoteButton(note_button_coords[14], note_button_coords[0], note_button_width, note_button_height, RED, "14", BLACK, "g", "g-14")
+list_of_note_buttons.append(g_14_button)
+
+g_15_button = NoteButton(note_button_coords[15], note_button_coords[0], note_button_width, note_button_height, RED, "15", BLACK, "g", "g-15")
+list_of_note_buttons.append(g_15_button)
+
+g_16_button = NoteButton(note_button_coords[16], note_button_coords[0], note_button_width, note_button_height, RED, "16", BLACK, "g", "g-16")
+list_of_note_buttons.append(g_16_button)
+
+g_17_button = NoteButton(note_button_coords[17], note_button_coords[0], note_button_width, note_button_height, RED, "17", BLACK, "g", "g-17")
+list_of_note_buttons.append(g_17_button)
+
+g_18_button = NoteButton(note_button_coords[18], note_button_coords[0], note_button_width, note_button_height, RED, "18", BLACK, "g", "g-18")
+list_of_note_buttons.append(g_18_button)
+
+g_19_button = NoteButton(note_button_coords[19], note_button_coords[0], note_button_width, note_button_height, RED, "19", BLACK, "g", "g-19")
+list_of_note_buttons.append(g_19_button)
+
+g_20_button = NoteButton(note_button_coords[20], note_button_coords[0], note_button_width, note_button_height, RED, "20", BLACK, "g", "g-20")
+list_of_note_buttons.append(g_20_button)
+
+g_21_button = NoteButton(note_button_coords[21], note_button_coords[0], note_button_width, note_button_height, RED, "21", BLACK, "g", "g-21")
+list_of_note_buttons.append(g_21_button)
+
+g_22_button = NoteButton(note_button_coords[22], note_button_coords[0], note_button_width, note_button_height, RED, "22", BLACK, "g", "g-22")
+list_of_note_buttons.append(g_22_button)
+
+g_23_button = NoteButton(note_button_coords[23], note_button_coords[0], note_button_width, note_button_height, RED, "23", BLACK, "g", "g-23")
+list_of_note_buttons.append(g_23_button)
+
+g_24_button = NoteButton(note_button_coords[24], note_button_coords[0], note_button_width, note_button_height, RED, "24", BLACK, "g", "g-24")
+list_of_note_buttons.append(g_24_button)
+# D STRING
+d_0_button = NoteButton(note_button_coords[0], note_button_coords[1], note_button_width, note_button_height, ORANGE, "0", BLACK, "d", "d-0")
+list_of_note_buttons.append(d_0_button)
+
+d_1_button = NoteButton(note_button_coords[1], note_button_coords[1], note_button_width, note_button_height, ORANGE, "1", BLACK, "d", "d-1")
+list_of_note_buttons.append(d_1_button)
+
+d_2_button = NoteButton(note_button_coords[2], note_button_coords[1], note_button_width, note_button_height, ORANGE, "2", BLACK, "d", "d-2")
+list_of_note_buttons.append(d_2_button)
+
+d_3_button = NoteButton(note_button_coords[3], note_button_coords[1], note_button_width, note_button_height, ORANGE, "3", BLACK, "d", "d-3")
+list_of_note_buttons.append(d_3_button)
+
+d_4_button = NoteButton(note_button_coords[4], note_button_coords[1], note_button_width, note_button_height, ORANGE, "4", BLACK, "d", "d-4")
+list_of_note_buttons.append(d_4_button)
+
+d_5_button = NoteButton(note_button_coords[5], note_button_coords[1], note_button_width, note_button_height, ORANGE, "5", BLACK, "d", "d-5")
+list_of_note_buttons.append(d_5_button)
+
+d_6_button = NoteButton(note_button_coords[6], note_button_coords[1], note_button_width, note_button_height, ORANGE, "6", BLACK, "d", "d-6")
+list_of_note_buttons.append(d_6_button)
+
+d_7_button = NoteButton(note_button_coords[7], note_button_coords[1], note_button_width, note_button_height, ORANGE, "7", BLACK, "d", "d-7")
+list_of_note_buttons.append(d_7_button)
+
+d_8_button = NoteButton(note_button_coords[8], note_button_coords[1], note_button_width, note_button_height, ORANGE, "8", BLACK, "d", "d-8")
+list_of_note_buttons.append(d_8_button)
+
+d_9_button = NoteButton(note_button_coords[9], note_button_coords[1], note_button_width, note_button_height, ORANGE, "9", BLACK, "d", "d-9")
+list_of_note_buttons.append(d_9_button)
+
+d_10_button = NoteButton(note_button_coords[10], note_button_coords[1], note_button_width, note_button_height, ORANGE, "10", BLACK, "d", "d-10")
+list_of_note_buttons.append(d_10_button)
+
+d_11_button = NoteButton(note_button_coords[11], note_button_coords[1], note_button_width, note_button_height, ORANGE, "11", BLACK, "d", "d-11")
+list_of_note_buttons.append(d_11_button)
+
+d_12_button = NoteButton(note_button_coords[12], note_button_coords[1], note_button_width, note_button_height, ORANGE, "12", BLACK, "d", "d-12")
+list_of_note_buttons.append(d_12_button)
+
+d_13_button = NoteButton(note_button_coords[13], note_button_coords[1], note_button_width, note_button_height, ORANGE, "13", BLACK, "d", "d-13")
+list_of_note_buttons.append(d_13_button)
+
+d_14_button = NoteButton(note_button_coords[14], note_button_coords[1], note_button_width, note_button_height, ORANGE, "14", BLACK, "d", "d-14")
+list_of_note_buttons.append(d_14_button)
+
+d_15_button = NoteButton(note_button_coords[15], note_button_coords[1], note_button_width, note_button_height, ORANGE, "15", BLACK, "d", "d-15")
+list_of_note_buttons.append(d_15_button)
+
+d_16_button = NoteButton(note_button_coords[16], note_button_coords[1], note_button_width, note_button_height, ORANGE, "16", BLACK, "d", "d-16")
+list_of_note_buttons.append(d_16_button)
+
+d_17_button = NoteButton(note_button_coords[17], note_button_coords[1], note_button_width, note_button_height, ORANGE, "17", BLACK, "d", "d-17")
+list_of_note_buttons.append(d_17_button)
+
+d_18_button = NoteButton(note_button_coords[18], note_button_coords[1], note_button_width, note_button_height, ORANGE, "18", BLACK, "d", "d-18")
+list_of_note_buttons.append(d_18_button)
+
+d_19_button = NoteButton(note_button_coords[19], note_button_coords[1], note_button_width, note_button_height, ORANGE, "19", BLACK, "d", "d-19")
+list_of_note_buttons.append(d_19_button)
+
+d_20_button = NoteButton(note_button_coords[20], note_button_coords[1], note_button_width, note_button_height, ORANGE, "20", BLACK, "d", "d-20")
+list_of_note_buttons.append(d_20_button)
+
+d_21_button = NoteButton(note_button_coords[21], note_button_coords[1], note_button_width, note_button_height, ORANGE, "21", BLACK, "d", "d-21")
+list_of_note_buttons.append(d_21_button)
+
+d_22_button = NoteButton(note_button_coords[22], note_button_coords[1], note_button_width, note_button_height, ORANGE, "22", BLACK, "d", "d-22")
+list_of_note_buttons.append(d_22_button)
+
+d_23_button = NoteButton(note_button_coords[23], note_button_coords[1], note_button_width, note_button_height, ORANGE, "23", BLACK, "d", "d-23")
+list_of_note_buttons.append(d_23_button)
+
+d_24_button = NoteButton(note_button_coords[24], note_button_coords[1], note_button_width, note_button_height, ORANGE, "24", BLACK, "d", "d-24")
+list_of_note_buttons.append(d_24_button)
+# A STRING
+a_0_button = NoteButton(note_button_coords[0], note_button_coords[2], note_button_width, note_button_height, YELLOW, "0", BLACK, "a", "a-0")
+list_of_note_buttons.append(a_0_button)
+
+a_1_button = NoteButton(note_button_coords[1], note_button_coords[2], note_button_width, note_button_height, YELLOW, "1", BLACK, "a", "a-1")
+list_of_note_buttons.append(a_1_button)
+
+a_2_button = NoteButton(note_button_coords[2], note_button_coords[2], note_button_width, note_button_height, YELLOW, "2", BLACK, "a", "a-2")
+list_of_note_buttons.append(a_2_button)
+
+a_3_button = NoteButton(note_button_coords[3], note_button_coords[2], note_button_width, note_button_height, YELLOW, "3", BLACK, "a", "a-3")
+list_of_note_buttons.append(a_3_button)
+
+a_4_button = NoteButton(note_button_coords[4], note_button_coords[2], note_button_width, note_button_height, YELLOW, "4", BLACK, "a", "a-4")
+list_of_note_buttons.append(a_4_button)
+
+a_5_button = NoteButton(note_button_coords[5], note_button_coords[2], note_button_width, note_button_height, YELLOW, "5", BLACK, "a", "a-5")
+list_of_note_buttons.append(a_5_button)
+
+a_6_button = NoteButton(note_button_coords[6], note_button_coords[2], note_button_width, note_button_height, YELLOW, "6", BLACK, "a", "a-6")
+list_of_note_buttons.append(a_6_button)
+
+a_7_button = NoteButton(note_button_coords[7], note_button_coords[2], note_button_width, note_button_height, YELLOW, "7", BLACK, "a", "a-7")
+list_of_note_buttons.append(a_7_button)
+
+a_8_button = NoteButton(note_button_coords[8], note_button_coords[2], note_button_width, note_button_height, YELLOW, "8", BLACK, "a", "a-8")
+list_of_note_buttons.append(a_8_button)
+
+a_9_button = NoteButton(note_button_coords[9], note_button_coords[2], note_button_width, note_button_height, YELLOW, "9", BLACK, "a", "a-9")
+list_of_note_buttons.append(a_9_button)
+
+a_10_button = NoteButton(note_button_coords[10], note_button_coords[2], note_button_width, note_button_height, YELLOW, "10", BLACK, "a", "a-10")
+list_of_note_buttons.append(a_10_button)
+
+a_11_button = NoteButton(note_button_coords[11], note_button_coords[2], note_button_width, note_button_height, YELLOW, "11", BLACK, "a", "a-11")
+list_of_note_buttons.append(a_11_button)
+
+a_12_button = NoteButton(note_button_coords[12], note_button_coords[2], note_button_width, note_button_height, YELLOW, "12", BLACK, "a", "a-12")
+list_of_note_buttons.append(a_12_button)
+
+a_13_button = NoteButton(note_button_coords[13], note_button_coords[2], note_button_width, note_button_height, YELLOW, "13", BLACK, "a", "a-13")
+list_of_note_buttons.append(a_13_button)
+
+a_14_button = NoteButton(note_button_coords[14], note_button_coords[2], note_button_width, note_button_height, YELLOW, "14", BLACK, "a", "a-14")
+list_of_note_buttons.append(a_14_button)
+
+a_15_button = NoteButton(note_button_coords[15], note_button_coords[2], note_button_width, note_button_height, YELLOW, "15", BLACK, "a", "a-15")
+list_of_note_buttons.append(a_15_button)
+
+a_16_button = NoteButton(note_button_coords[16], note_button_coords[2], note_button_width, note_button_height, YELLOW, "16", BLACK, "a", "a-16")
+list_of_note_buttons.append(a_16_button)
+
+a_17_button = NoteButton(note_button_coords[17], note_button_coords[2], note_button_width, note_button_height, YELLOW, "17", BLACK, "a", "a-17")
+list_of_note_buttons.append(a_17_button)
+
+a_18_button = NoteButton(note_button_coords[18], note_button_coords[2], note_button_width, note_button_height, YELLOW, "18", BLACK, "a", "a-18")
+list_of_note_buttons.append(a_18_button)
+
+a_19_button = NoteButton(note_button_coords[19], note_button_coords[2], note_button_width, note_button_height, YELLOW, "19", BLACK, "a", "a-19")
+list_of_note_buttons.append(a_19_button)
+
+a_20_button = NoteButton(note_button_coords[20], note_button_coords[2], note_button_width, note_button_height, YELLOW, "20", BLACK, "a", "a-20")
+list_of_note_buttons.append(a_20_button)
+
+a_21_button = NoteButton(note_button_coords[21], note_button_coords[2], note_button_width, note_button_height, YELLOW, "21", BLACK, "a", "a-21")
+list_of_note_buttons.append(a_21_button)
+
+a_22_button = NoteButton(note_button_coords[22], note_button_coords[2], note_button_width, note_button_height, YELLOW, "22", BLACK, "a", "a-22")
+list_of_note_buttons.append(a_22_button)
+
+a_23_button = NoteButton(note_button_coords[23], note_button_coords[2], note_button_width, note_button_height, YELLOW, "23", BLACK, "a", "a-23")
+list_of_note_buttons.append(a_23_button)
+
+a_24_button = NoteButton(note_button_coords[24], note_button_coords[2], note_button_width, note_button_height, YELLOW, "24", BLACK, "a", "a-24")
+list_of_note_buttons.append(a_24_button)
+# E STRING
+e_0_button = NoteButton(note_button_coords[0], note_button_coords[3], note_button_width, note_button_height, GREEN, "0", BLACK, "e", "e-0")
+list_of_note_buttons.append(e_0_button)
+
+e_1_button = NoteButton(note_button_coords[1], note_button_coords[3], note_button_width, note_button_height, GREEN, "1", BLACK, "e", "e-1")
+list_of_note_buttons.append(e_1_button)
+
+e_2_button = NoteButton(note_button_coords[2], note_button_coords[3], note_button_width, note_button_height, GREEN, "2", BLACK, "e", "e-2")
+list_of_note_buttons.append(e_2_button)
+
+e_3_button = NoteButton(note_button_coords[3], note_button_coords[3], note_button_width, note_button_height, GREEN, "3", BLACK, "e", "e-3")
+list_of_note_buttons.append(e_3_button)
+
+e_4_button = NoteButton(note_button_coords[4], note_button_coords[3], note_button_width, note_button_height, GREEN, "4", BLACK, "e", "e-4")
+list_of_note_buttons.append(e_4_button)
+
+e_5_button = NoteButton(note_button_coords[5], note_button_coords[3], note_button_width, note_button_height, GREEN, "5", BLACK, "e", "e-5")
+list_of_note_buttons.append(e_5_button)
+
+e_6_button = NoteButton(note_button_coords[6], note_button_coords[3], note_button_width, note_button_height, GREEN, "6", BLACK, "e", "e-6")
+list_of_note_buttons.append(e_6_button)
+
+e_7_button = NoteButton(note_button_coords[7], note_button_coords[3], note_button_width, note_button_height, GREEN, "7", BLACK, "e", "e-7")
+list_of_note_buttons.append(e_7_button)
+
+e_8_button = NoteButton(note_button_coords[8], note_button_coords[3], note_button_width, note_button_height, GREEN, "8", BLACK, "e", "e-8")
+list_of_note_buttons.append(e_8_button)
+
+e_9_button = NoteButton(note_button_coords[9], note_button_coords[3], note_button_width, note_button_height, GREEN, "9", BLACK, "e", "e-9")
+list_of_note_buttons.append(e_9_button)
+
+e_10_button = NoteButton(note_button_coords[10], note_button_coords[3], note_button_width, note_button_height, GREEN, "10", BLACK, "e", "e-10")
+list_of_note_buttons.append(e_10_button)
+
+e_11_button = NoteButton(note_button_coords[11], note_button_coords[3], note_button_width, note_button_height, GREEN, "11", BLACK, "e", "e-11")
+list_of_note_buttons.append(e_11_button)
+
+e_12_button = NoteButton(note_button_coords[12], note_button_coords[3], note_button_width, note_button_height, GREEN, "12", BLACK, "e", "e-12")
+list_of_note_buttons.append(e_12_button)
+
+e_13_button = NoteButton(note_button_coords[13], note_button_coords[3], note_button_width, note_button_height, GREEN, "13", BLACK, "e", "e-13")
+list_of_note_buttons.append(e_13_button)
+
+e_14_button = NoteButton(note_button_coords[14], note_button_coords[3], note_button_width, note_button_height, GREEN, "14", BLACK, "e", "e-14")
+list_of_note_buttons.append(e_14_button)
+
+e_15_button = NoteButton(note_button_coords[15], note_button_coords[3], note_button_width, note_button_height, GREEN, "15", BLACK, "e", "e-15")
+list_of_note_buttons.append(e_15_button)
+
+e_16_button = NoteButton(note_button_coords[16], note_button_coords[3], note_button_width, note_button_height, GREEN, "16", BLACK, "e", "e-16")
+list_of_note_buttons.append(e_16_button)
+
+e_17_button = NoteButton(note_button_coords[17], note_button_coords[3], note_button_width, note_button_height, GREEN, "17", BLACK, "e", "e-17")
+list_of_note_buttons.append(e_17_button)
+
+e_18_button = NoteButton(note_button_coords[18], note_button_coords[3], note_button_width, note_button_height, GREEN, "18", BLACK, "e", "e-18")
+list_of_note_buttons.append(e_18_button)
+
+e_19_button = NoteButton(note_button_coords[19], note_button_coords[3], note_button_width, note_button_height, GREEN, "19", BLACK, "e", "e-19")
+list_of_note_buttons.append(e_19_button)
+
+e_20_button = NoteButton(note_button_coords[20], note_button_coords[3], note_button_width, note_button_height, GREEN, "20", BLACK, "e", "e-20")
+list_of_note_buttons.append(e_20_button)
+
+e_21_button = NoteButton(note_button_coords[21], note_button_coords[3], note_button_width, note_button_height, GREEN, "21", BLACK, "e", "e-21")
+list_of_note_buttons.append(e_21_button)
+
+e_22_button = NoteButton(note_button_coords[22], note_button_coords[3], note_button_width, note_button_height, GREEN, "22", BLACK, "e", "e-22")
+list_of_note_buttons.append(e_22_button)
+
+e_23_button = NoteButton(note_button_coords[23], note_button_coords[3], note_button_width, note_button_height, GREEN, "23", BLACK, "e", "e-23")
+list_of_note_buttons.append(e_23_button)
+
+e_24_button = NoteButton(note_button_coords[24], note_button_coords[3], note_button_width, note_button_height, GREEN, "24", BLACK, "e", "e-24")
+list_of_note_buttons.append(e_24_button)

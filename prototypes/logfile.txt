@@ -1,0 +1,45 @@
+2023-12-11 12:40:39.605570: App started
+2023-12-11 12:40:40.433915: Caption is now 'Main Menu'
+2023-12-11 12:40:40.433992: Called function make_main_menu_buttons()
+2023-12-11 12:40:40.434126: Called function make_note_buttons()
+2023-12-11 12:40:40.434146: Called function make_main_menu_buttons()
+2023-12-11 12:40:41.936197: Clicked Make tab
+2023-12-11 12:40:41.936750: Caption is now 'Tab maker'
+2023-12-11 12:40:41.936832: Called function make_note_buttons()
+2023-12-11 12:42:15.333588: App exited
+2023-12-28 19:08:21.391777: App started
+2023-12-28 19:08:22.599377: Caption is now 'Main Menu'
+2023-12-28 19:08:22.599459: Called function make_main_menu_buttons()
+2023-12-28 19:08:22.599610: Called function make_note_buttons()
+2023-12-28 19:08:22.599632: Called function make_main_menu_buttons()
+2023-12-28 19:08:24.806622: App exited
+2023-12-28 19:46:45.165191: App started
+2023-12-28 19:46:45.842286: Caption is now 'Main Menu'
+2023-12-28 19:46:45.842393: Called function make_main_menu_buttons()
+2023-12-28 19:46:45.842633: Called function make_note_buttons()
+2023-12-28 19:46:45.842665: Called function make_main_menu_buttons()
+2023-12-28 19:46:47.796327: App exited
+2023-12-28 19:46:50.119177: App started
+2023-12-28 19:46:50.741400: Caption is now 'Main Menu'
+2023-12-28 19:46:50.741556: Called function make_main_menu_buttons()
+2023-12-28 19:46:50.741803: Called function make_note_buttons()
+2023-12-28 19:46:50.741837: Called function make_main_menu_buttons()
+2023-12-28 19:46:51.846699: App exited
+2023-12-28 19:47:28.565329: App started
+2023-12-28 19:47:29.232896: Caption is now 'Main Menu'
+2023-12-28 19:47:29.232940: Called function make_main_menu_buttons()
+2023-12-28 19:47:29.233014: Called function make_note_buttons()
+2023-12-28 19:47:29.233023: Called function make_main_menu_buttons()
+2023-12-28 19:47:30.847871: App exited
+2023-12-28 20:31:29.787190: App started
+2023-12-28 20:31:30.504510: Caption is now 'Main Menu'
+2023-12-28 20:31:30.504612: Called function make_main_menu_buttons()
+2023-12-28 20:31:30.504826: Called function make_note_buttons()
+2023-12-28 20:31:30.504858: Called function make_main_menu_buttons()
+2023-12-28 20:31:31.810495: App exited
+2023-12-28 22:36:47.264074: App started
+2023-12-28 22:36:48.436785: Caption is now 'Main Menu'
+2023-12-28 22:36:48.436898: Called function make_main_menu_buttons()
+2023-12-28 22:36:48.437119: Called function make_note_buttons()
+2023-12-28 22:36:48.437152: Called function make_main_menu_buttons()
+2023-12-28 22:36:49.901511: App exited
