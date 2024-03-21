@@ -1637,10 +1637,7 @@ def main():
                                         screen.fill(WHITE)
 
                                         # render and display the question
-                                        question_surface = font.render(
-                                            questions[current_question],
-                                            True, (0, 0, 0),
-                                        )
+                                        question_surface = font.render(questions[current_question], True, (0, 0, 0),)
                                         screen.blit(
                                             question_surface,
                                             (input_box.x, input_box.y - 30),
