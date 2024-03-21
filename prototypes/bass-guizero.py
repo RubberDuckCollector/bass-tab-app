@@ -3,6 +3,8 @@ from guizero import Text
 from guizero import TextBox
 from guizero import PushButton
 
+# FIRST PROTOTYPE
+
 notes = [
     ["E|"],
     ["A|"],
@@ -119,26 +121,22 @@ def main():
 
     # instantiate a button object from PushButton class that binds to app
     # calls a proc when clicked
+    # example:
     # button = PushButton(app, command=on_click, text="click me", pady=10, padx=10)
+    # when it's clicked, call the identifier con_click, which is a function.
+    # don't put () after it though, i'm not actually calling it.
+    # i'm specifying the identifier the program should go to. you could compare this to linking to the desired function.
 
-    PushButton(
-        app, command=e_string_proc, text="E string", grid=[0, 3], pady=10, padx=10
-    )
-    PushButton(
-        app, command=a_string_proc, text="A string", grid=[0, 4], pady=10, padx=10
-    )
-    PushButton(
-        app, command=d_string_proc, text="D string", grid=[0, 5], pady=10, padx=10
-    )
-    PushButton(
-        app, command=g_string_proc, text="G string", grid=[0, 6], pady=10, padx=10
-    )
+    PushButton(app, command=e_string_proc, text="E string", grid=[0, 3], pady=10, padx=10)
+    PushButton(app, command=a_string_proc, text="A string", grid=[0, 4], pady=10, padx=10)
+    PushButton(app, command=d_string_proc, text="D string", grid=[0, 5], pady=10, padx=10)
+    PushButton(app, command=g_string_proc, text="G string", grid=[0, 6], pady=10, padx=10)
     PushButton(app, command=rest_proc, text="rest", grid=[0, 7], padx=10, pady=10)
     PushButton(app, command=break_proc, text="break", grid=[0, 8], padx=10, pady=10)
-    PushButton(
-        app, command=delete_proc, text="delete last note", grid=[0, 9], padx=10, pady=10
-    )
+    PushButton(app, command=delete_proc, text="delete last note", grid=[0, 9], padx=10, pady=10)
     PushButton(app, command=save_proc, text="save tab", grid=[0, 10], pady=10, padx=10)
+
+    # define text boxes that the user writes the desired tab to. then they press the button next to it to add that to the string
 
     e_string_box = TextBox(app, text="0", grid=[1, 3])  # E
     a_string_box = TextBox(app, text="0", grid=[1, 4])  # A

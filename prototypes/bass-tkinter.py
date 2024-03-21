@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 def main():
     window = tk.Tk()
 
@@ -18,8 +19,6 @@ def main():
 
     c = tk.Button(master=strings, text="test", command=lambda: check_screen_size())
     c.grid(row=5, column=0)
-
-
 
     def g_func(fret_num):
         print(f"num: {fret_num} string: g")
@@ -109,14 +108,12 @@ def main():
     g_23 = tk.Button(master=strings, text="23", bg="black", fg="black", command=lambda: g_func(23))
     g_23.grid(row=0, column=24, padx=5, pady=10)
 
-
     # D
     d_string = tk.Label(master=strings, text="D")
     d_string.grid(row=1, column=0, padx=10, pady=10)
 
     d_0 = tk.Button(master=strings, text="0", bg="black", fg="black", command=lambda: d_func(0))
     d_0.grid(row=1, column=1, padx=5, pady=10)
-
 
     # A
     a_string = tk.Label(master=strings, text="A")
@@ -144,25 +141,18 @@ def main():
     e_3 = tk.Button(master=strings, text="3", bg="black", fg="black", command=lambda: e_func(3))
     e_3.grid(row=3, column=4, padx=5, pady=10)
 
-
-    
-
-
-
     # TODO: ADD MORE STRINGS
     # TODO: ADD FUNCTIONS THAT RETRIEVE BUTTON VALUES
     # TODO: ADD CHANGE NUMBERS TO LETTERS
     # TODO: ADD CHANGE LETTERS TO NUMBERS
-
 
     strings.pack()
 
     # print(screen_height)
     # print(screen_width)
 
-
-
     window.mainloop()
+
 
 if __name__ == '__main__':
     main()
