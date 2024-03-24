@@ -136,16 +136,14 @@ def main():
     PushButton(app, command=delete_proc, text="delete last note", grid=[0, 9], padx=10, pady=10)
     PushButton(app, command=save_proc, text="save tab", grid=[0, 10], pady=10, padx=10)
 
-    # define text boxes that the user writes the desired tab to. then they press the button next to it to add that to the string
-
-    e_string_box = TextBox(app, text="0", grid=[1, 3])  # E
-    a_string_box = TextBox(app, text="0", grid=[1, 4])  # A
-    d_string_box = TextBox(app, text="0", grid=[1, 5])  # D
-    g_string_box = TextBox(app, text="0", grid=[1, 6])  # G
-    e_string_box.text_color = "#000000"
-    a_string_box.text_color = "#000000"
-    d_string_box.text_color = "#000000"
-    g_string_box.text_color = "#000000"
+    # e_string_box = TextBox(app, text="0", grid=[1, 3])  # E
+    # a_string_box = TextBox(app, text="0", grid=[1, 4])  # A
+    # d_string_box = TextBox(app, text="0", grid=[1, 5])  # D
+    # g_string_box = TextBox(app, text="0", grid=[1, 6])  # G
+    # e_string_box.text_color = "#000000"
+    # a_string_box.text_color = "#000000"
+    # d_string_box.text_color = "#000000"
+    # g_string_box.text_color = "#000000"
 
     # the text needs to be black because otherwise it's white by default (and on a white bg)
     # cannot do something like:

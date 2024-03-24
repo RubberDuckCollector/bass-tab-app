@@ -87,3 +87,27 @@ wefatibwcgqbknssgzfkhlnoxhscwuqhabujlhnhcbrwnpyrjmzsmjvqcrabttglghpfwsqlxhscwuqh
 2024-02-24 14:08:39.446858: Clicked Make tab
 2024-02-24 14:08:39.447567: Caption is now 'Tab maker'
 2024-02-24 14:08:39.447573: User will be prompted to enter song details
+2024-03-24 11:26:21.799443: App started
+2024-03-24 11:26:22.751914: Caption is now 'Main Menu'
+2024-03-24 11:26:22.751975: Called function make_main_menu_buttons()
+2024-03-24 11:26:22.752079: Called function make_note_buttons()
+2024-03-24 11:26:22.752095: Called function make_main_menu_buttons()
+2024-03-24 11:26:25.474331: Clicked Make tab
+2024-03-24 11:26:25.474963: Caption is now 'Tab maker'
+2024-03-24 11:26:25.474968: User will be prompted to enter song details
+2024-03-24 11:26:29.300678: App started
+2024-03-24 11:26:29.877253: Caption is now 'Main Menu'
+2024-03-24 11:26:29.877371: Called function make_main_menu_buttons()
+2024-03-24 11:26:29.877589: Called function make_note_buttons()
+2024-03-24 11:26:29.877619: Called function make_main_menu_buttons()
+2024-03-24 11:26:32.222059: Clicked Make tab
+2024-03-24 11:26:32.222659: Caption is now 'Tab maker'
+2024-03-24 11:26:32.222665: User will be prompted to enter song details
+2024-03-24 11:26:37.865771: App started
+2024-03-24 11:26:38.457155: Caption is now 'Main Menu'
+2024-03-24 11:26:38.457257: Called function make_main_menu_buttons()
+2024-03-24 11:26:38.457401: Called function make_note_buttons()
+2024-03-24 11:26:38.457422: Called function make_main_menu_buttons()
+2024-03-24 11:26:39.006198: Clicked Make tab
+2024-03-24 11:26:39.006813: Caption is now 'Tab maker'
+2024-03-24 11:26:39.006818: User will be prompted to enter song details

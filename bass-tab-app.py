@@ -1,5 +1,4 @@
 import sys
-
 from datetime import datetime
 import pygame
 
@@ -154,7 +153,17 @@ def main():
             list_of_note_buttons = []
 
             # G STRING
-            g_0_button = NoteButton(note_button_coords[0], note_button_coords[0], note_button_width, note_button_height, RED, "0", BLACK, "g", "g-0",)
+            g_0_button = NoteButton(
+                note_button_coords[0],
+                note_button_coords[0],
+                note_button_width,
+                note_button_height,
+                RED,
+                "0",
+                BLACK,
+                "g",
+                "g-0"
+            )
             list_of_note_buttons.append(g_0_button)
 
             g_1_button = NoteButton(
@@ -1624,9 +1633,7 @@ def main():
                                                             # clear the text box ready for the user's next answer
                                                             text = ""
                                                             break
-                                                    elif (
-                                                        event.key == pygame.K_BACKSPACE
-                                                    ):
+                                                    elif event.key == pygame.K_BACKSPACE:
                                                         text = text[:-1]
                                                     else:
                                                         text += event.unicode
